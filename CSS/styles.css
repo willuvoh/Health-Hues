@@ -1,0 +1,169 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2980b9;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+/* Hero Styles */
+.hero {
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/25/15/08/jogging-2343558_960_720.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #2ecc71;
+  color: #FFFFFF;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #2E8B57;
+}
+
+/* About Us Styles */
+.about-us {
+  background-color: #FFFFFF;
+  padding: 80px 0;
+}
+
+.about-us h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.about-us p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Blog Styles */
+.blog {
+  background-color: #F2F2F2;
+  padding: 80px 0;
+}
+
+.blog h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.post {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.post-image {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.post-image img {
+  width: 100%;
+}
+
+.post-content {
+  flex: 2;
+}
+
+.post-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.post-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+      flex-direction: column;
